@@ -98,7 +98,7 @@ class Dashboard extends StatelessWidget {
                     children: [
                       Column(
                         children: [
-                          Image.asset('assets/006-vegetables.png', width: 40,),
+                          Image.asset('assets/006-vegetables.png', width: 20,),
                           SizedBox(
                             height: 10,
                           ),
@@ -107,7 +107,7 @@ class Dashboard extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          Image.asset('assets/033-broccoli.png', width: 40,),
+                          Image.asset('assets/033-broccoli.png', width: 20,),
                           SizedBox(
                             height: 10,
                           ),
@@ -116,7 +116,7 @@ class Dashboard extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          Image.asset('assets/035-apple.png', width: 40,),
+                          Image.asset('assets/035-apple.png', width: 20,),
                           SizedBox(
                             height: 10,
                           ),
@@ -125,7 +125,7 @@ class Dashboard extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          Image.asset('assets/013-flour.png', width: 40,),
+                          Image.asset('assets/013-flour.png', width: 20,),
                           SizedBox(
                             height: 10,
                           ),
@@ -142,7 +142,7 @@ class Dashboard extends StatelessWidget {
                     children: [
                       Column(
                         children: [
-                          Image.asset('assets/017-fridge.png', width: 40,),
+                          Image.asset('assets/017-fridge.png', width: 20,),
                           SizedBox(
                             height: 10,
                           ),
@@ -151,7 +151,7 @@ class Dashboard extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          Image.asset('assets/028-shopping-basket.png', width: 40,),
+                          Image.asset('assets/028-shopping-basket.png', width: 20,),
                           SizedBox(
                             height: 10,
                           ),
@@ -160,7 +160,7 @@ class Dashboard extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          Image.asset('assets/011-fish.png', width: 40,),
+                          Image.asset('assets/011-fish.png', width: 20,),
                           SizedBox(
                             height: 10,
                           ),
@@ -169,7 +169,7 @@ class Dashboard extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          Image.asset('assets/028-shopping-basket.png', width: 40,),
+                          Image.asset('assets/028-shopping-basket.png', width: 20,),
                           SizedBox(
                             height: 10,
                           ),
@@ -186,7 +186,7 @@ class Dashboard extends StatelessWidget {
                     children: [
                       Column(
                         children: [
-                          Image.asset('assets/chips-snack-svgrepo-com.png', width: 40,),
+                          Image.asset('assets/chips-snack-svgrepo-com.png', width: 20,),
                           SizedBox(
                             height: 10,
                           ),
@@ -195,7 +195,7 @@ class Dashboard extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          Image.asset('assets/017-fridge.png', width: 40,),
+                          Image.asset('assets/017-fridge.png', width: 20,),
                           SizedBox(
                             height: 10,
                           ),
@@ -205,7 +205,19 @@ class Dashboard extends StatelessWidget {
                     ],
                   ),
                   SizedBox(
-                    height: 90,
+              height: 10,
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Text('Produk Baru', style: TextStyle(fontSize: 16, color: Colors.black),)
+                ],
+              ),
+            ),
+                  SizedBox(
+                    height: 60.5,
                   )
                 ],
               )
@@ -214,9 +226,9 @@ class Dashboard extends StatelessWidget {
               type: BottomNavigationBarType.fixed,
 
               selectedItemColor: Colors.green,
-              selectedFontSize: 13,
-              unselectedFontSize: 13,
-              iconSize: 30,
+              selectedFontSize: 10,
+              unselectedFontSize: 10,
+              iconSize: 20,
               items: [
                 BottomNavigationBarItem(
                   label: "Beranda",
